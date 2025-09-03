@@ -25,9 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              title="Employee Tracking System"
+              description="Developed a computer vision-based employee tracking system for real-time monitoring of workplace activity, improving operational oversight and accountability."
+              ghLink="https://github.com/yourusername/employee-tracking" // optional
               demoLink="https://chatify-49.web.app/"
             />
           </Col>
@@ -36,9 +36,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Person Counting System"
+              description="Developed a deep learning-based person counting system for crowded environments using ResNet50 with FPN backbone. Optimized the model for real-time performance and improved detection accuracy in dense scenes."
+              ghLink="https://github.com/yourusername/person-counting"
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
@@ -47,9 +47,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              title="Gait Analysis System"
+              description="Extracted high-quality silhouettes for gait analysis by integrating YOLOv8 with SAM. Preprocessed frames to generate accurate human masks, enabling gait feature extractions such as GEI and HOG."
+              ghLink="https://github.com/yourusername/gait-analysis"
               demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
@@ -58,9 +58,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              title="Head Detection Pipeline"
+              description="Implemented a head detection pipeline using YOLOv8 trained on a custom dataset of colored and black-and-white head images. Applied ensemble learning with multiple YOLOv8 variants to boost prediction robustness."
+              ghLink="https://github.com/yourusername/head-detection"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
@@ -69,9 +69,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Multi-Object Tracking Research"
+              description="Researched and implemented tracking algorithms including SORT, DeepSORT, ByteTrack, BoT-SORT, and OC-SORT. Evaluated their performance across diverse surveillance scenarios to enhance tracking accuracy and robustness."
+              ghLink="https://github.com/yourusername/multi-object-tracking"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
