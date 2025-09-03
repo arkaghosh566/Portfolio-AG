@@ -39,7 +39,6 @@ function Projects() {
               title="Person Counting System"
               description="Developed a deep learning-based person counting system for crowded environments using ResNet50 with FPN backbone. Optimized the model for real-time performance and improved detection accuracy in dense scenes."
               ghLink="https://github.com/yourusername/person-counting"
-              demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
@@ -50,7 +49,6 @@ function Projects() {
               title="Gait Analysis System"
               description="Extracted high-quality silhouettes for gait analysis by integrating YOLOv8 with SAM. Preprocessed frames to generate accurate human masks, enabling gait feature extractions such as GEI and HOG."
               ghLink="https://github.com/yourusername/gait-analysis"
-              demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 {/* 
