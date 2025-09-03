@@ -7,7 +7,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import GAIT from "../../Assets/Projects/GAIT.png";
 import ETS from "../../Assets/Projects/ETS.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import PTS from "../../Assets/Projects/PTS.png";
 
 function Projects() {
   return (
@@ -28,13 +28,13 @@ function Projects() {
               title="Employee Tracking System"
               description="Developed a computer vision-based employee tracking system for real-time monitoring of workplace activity, improving operational oversight and accountability."
               ghLink="https://github.com/yourusername/employee-tracking" // optional
-              demoLink="https://chatify-49.web.app/"
+              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={PTS}
               isBlog={false}
               title="Person Counting System"
               description="Developed a deep learning-based person counting system for crowded environments using ResNet50 with FPN backbone. Optimized the model for real-time performance and improved detection accuracy in dense scenes."
