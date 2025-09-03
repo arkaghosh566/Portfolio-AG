@@ -6,7 +6,7 @@ import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import GAIT from "../../Assets/Projects/GAIT.png";
 import ETS from "../../Assets/Projects/ETS.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import DEEPSORT from "../../Assets/Projects/DEEPSORT.jpg";
 import PTS from "../../Assets/Projects/PTS.png";
 
 function Projects() {
@@ -53,7 +53,7 @@ function Projects() {
               demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
-
+{/* 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
@@ -63,11 +63,11 @@ function Projects() {
               ghLink="https://github.com/yourusername/head-detection"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={DEEPSORT}
               isBlog={false}
               title="Multi-Object Tracking Research"
               description="Researched and implemented tracking algorithms including SORT, DeepSORT, ByteTrack, BoT-SORT, and OC-SORT. Evaluated their performance across diverse surveillance scenarios to enhance tracking accuracy and robustness."
@@ -76,7 +76,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -86,7 +86,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
